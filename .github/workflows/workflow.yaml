@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: 20.10.0
+        node-version: [20.10.0]
 
     env:
       POSTGRES_USER: ${{secrets.POSTGRES_USER}}
